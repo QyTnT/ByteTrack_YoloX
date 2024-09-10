@@ -1,0 +1,18 @@
+{
+    "version": 4,
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/homebrew/Cellar/opencv/4.8.1_3/include/opencv4", // OpenCV 头文件路径
+                "/Users/lxw/07/0707/bytetrack/include/onnxruntime-osx-arm64-1.19.0/include" // 其他可能的头文件路径
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++", // 修改为你使用的编译器路径
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "macos-gcc-x64"
+        }
+    ]
+}
